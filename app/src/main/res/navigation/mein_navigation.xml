@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mein_navigation"
+    app:startDestination="@id/mainActivity">
+
+    <fragment
+        android:id="@+id/frag1"
+        android:name="com.example.a18_19.frag1"
+        android:label="activity_frag1"
+        tools:layout="@layout/activity_frag1" >
+        <action
+            android:id="@+id/action_frag1_to_mainActivity"
+            app:destination="@id/mainActivity" />
+        <action
+            android:id="@+id/action_frag1_to_frag5"
+            app:destination="@id/frag5" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.a18_19.MainActivity"
+        android:label="activity_main2"
+        tools:layout="@layout/activity_main2" />
+    <fragment
+        android:id="@+id/frag5"
+        android:name="com.example.a18_19.frag5"
+        android:label="frag5" >
+        <action
+            android:id="@+id/action_frag5_to_frag1"
+            app:destination="@id/frag1" />
+        <action
+            android:id="@+id/action_frag5_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/frag2"
+        android:name="com.example.a18_19.frag2"
+        android:label="frag2" >
+        <action
+            android:id="@+id/action_frag2_to_frag3"
+            app:destination="@id/frag3" />
+        <action
+            android:id="@+id/action_frag2_to_frag4"
+            app:destination="@id/frag4" />
+        <action
+            android:id="@+id/action_frag2_to_frag32"
+            app:destination="@id/frag3" />
+        <action
+            android:id="@+id/action_frag2_to_frag33"
+            app:destination="@id/frag3" />
+        <action
+            android:id="@+id/action_frag2_to_frag5"
+            app:destination="@id/frag5" />
+        <action
+            android:id="@+id/action_frag2_to_frag1"
+            app:destination="@id/frag1" />
+        <action
+            android:id="@+id/action_frag2_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/frag3"
+        android:name="com.example.a18_19.frag3"
+        android:label="frag3" />
+    <fragment
+        android:id="@+id/frag4"
+        android:name="com.example.a18_19.frag4"
+        android:label="frag4" >
+        <action
+            android:id="@+id/action_frag4_to_frag5"
+            app:destination="@id/frag5" />
+        <action
+            android:id="@+id/action_frag4_to_mainActivity"
+            app:destination="@id/mainActivity" />
+        <action
+            android:id="@+id/action_frag4_to_frag1"
+            app:destination="@id/frag1" />
+        <action
+            android:id="@+id/action_frag4_to_frag2"
+            app:destination="@id/frag2" />
+        <action
+            android:id="@+id/action_frag4_to_frag3"
+            app:destination="@id/frag3" />
+    </fragment>
+</navigation>

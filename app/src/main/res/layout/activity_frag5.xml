@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".frag1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Chamber (кодовое имя Мертвый глаз) — французский контрактный агент-страж из игры VALORANT. Chamber, несмотря на свою роль стража, обладает поистине мощными способностями и почти не зависит от экономики своей команды. В умелых руках он становится непобедимым засчет большого количества оружия в арсенале, которые при наихудших обстоятельствах могут поменять ситуацию в свою пользу."
+        android:textSize="16sp" />
+
+</FrameLayout>

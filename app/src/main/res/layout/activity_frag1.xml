@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".frag1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Brimstone (кодовое имя Сержант) — американский агент-специалист из игры VALORANT, специализирующийся на поддержке союзников и нанесении урона врагам по всей карте. Brimstone уникален тем, что использует мини-карту для развертывания некоторых своих способностей, делая его опасным, даже если он не присутствует непосредственно в бою. Игроки Brimstone должны быть отлично осведомлены о карте, поэтому они могут сражаться на одной стороне карты и наносить вред врагам на другой одновременно."
+        android:textSize="16sp" />
+
+</FrameLayout>

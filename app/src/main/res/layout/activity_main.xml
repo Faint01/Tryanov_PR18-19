@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".frag1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Valorant (стилизовано как VALORANT) — многопользовательская компьютерная игра, разработанная и издаваемая компанией Riot Games. Valorant является первой игрой Riot Games в жанре шутера от первого лица. Игра была анонсирована под названием Project A в октябре 2019 года, и была выпущена 2 июня 2020 года."
+        android:textSize="16sp" />
+
+</FrameLayout>
